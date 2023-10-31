@@ -1,6 +1,6 @@
 var tanColor = 123;
 var purpleColor = 39;
-var brownColor = 21;
+var violetColor = 21;
 
 var x = 100;
 var y = 200;
@@ -18,7 +18,7 @@ function setup()
   {
     background(redColor,greenColor,blueColor);
     // head
-    fill(255);
+    fill(250);
     circle(x,y,diameter)
     circle(headX,headY,175);
     headX+=headDirection;
@@ -30,6 +30,7 @@ function setup()
     rect(30,70,50,80);
     triangle(30, 45, 48, 50, 46, 45);
     //arms
+    fill(140)
     line(30, 75, 55, 95);
     line(100,50,50,150);
     //hands
