@@ -24,7 +24,7 @@ function setup()
     headX+=headDirection;
     if(headX >=418 || headX<= 82)
   {
-    headDirection *= -1;
+    headDirection *= 1;
   }
     circle(50,50,50);
     rect(30,70,50,80);
