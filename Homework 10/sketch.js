@@ -10,13 +10,14 @@ var movement = 50;
 
 function setup()
  {
-    createCanvas(400,400);
+    createCanvas(800,400);
     movement = floor(random() * 5) +1;
   }
   
   function draw() 
   {
     background(redColor,greenColor,blueColor);
+
     // head
     fill(250);
     circle(x,y,diameter)
@@ -24,7 +25,7 @@ function setup()
     headX+=headDirection;
     if(headX >=418 || headX<= 82)
   {
-    headDirection *= 1;
+    headDirection *= -1;
   }
     circle(50,50,50);
     rect(30,70,50,80);
@@ -48,7 +49,7 @@ function setup()
     text('Jaelynn Young Running Crane',120,30)
     if(x >= 800 || x <= 0)
     {
-        movement*=-1;
+        movement*= -1;
     }
   
         x += movement;
