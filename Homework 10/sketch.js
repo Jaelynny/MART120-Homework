@@ -11,7 +11,7 @@ var movement = 50;
 function setup()
  {
     createCanvas(800,400);
-    movement = floor(random() * 5) +1;
+    movement = floor(random() * 10) +1;
   }
   
   function draw() 
