@@ -8,8 +8,8 @@ var diameter = 50;
 
 var movement = 50;
 
-function setup()
- {
+function setup() 
+  {
     createCanvas(400,400);
     movement = floor(random() * 5) +1;
   }
@@ -39,7 +39,7 @@ function setup()
     point(40,105);
     circle(60,95,10);
     //body 
-    square(30,body Y 200,15)
+    square(30,bodyY,200,15)
     body
     triangle(50,150,100,200,150,150)
     //legs
